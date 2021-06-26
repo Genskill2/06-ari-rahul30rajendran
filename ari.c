@@ -1,4 +1,4 @@
-string ari(string s[100])
+string ari(string s)
 {int letters=0;
 int ari=0;
 string ans[100];
