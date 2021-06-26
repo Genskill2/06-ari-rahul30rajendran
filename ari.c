@@ -3,11 +3,12 @@
 #include <string.h>
 #include <cs50.h>
 #include<ctype.h>
+#include<math.h>
 
 string ari(string s)
  
 {int letters=0;
-int ari=0;
+float ari=0;
 string ans;
 int words=1,sentences=0;
 for(int i=0;i<strlen(s);i++)
@@ -20,7 +21,8 @@ if(s[i]==' ')
 words++;
 }
 ari=(int)4.71*(letters/words)+0.5*(words/sentences)-21.43;
-switch(ari){
+ int ari2=round(ari);
+switch(ari2){
 case 1 : ans="kindergarten";
 break;
 case 2 : ans= "First/Second Grade";
