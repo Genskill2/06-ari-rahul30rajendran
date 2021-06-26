@@ -10,9 +10,9 @@ string ari(string s)
 {int letters=0;
 float ari=0;
 string ans;
-int words=1,sentences=0;
+int words=0,sentences=0;
 for(int i=0;i<strlen(s);i++)
-{if(isalnum(s)==1)
+{if(isalnum(s))
 letters++;
 if(s[i]=='.'||s[i]=='?'||s[i]=='!'){
 sentences++;
