@@ -2,12 +2,13 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
+#include<ctype.>
 
 string ari(string s)
  
 {int letters=0;
 int ari=0;
-string ans[100];
+string ans;
 int words=0,sentences=0;
 for(int i=0;i<strlen(s);i++)
 {if(isalnum(s[i]))
