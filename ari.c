@@ -3,7 +3,6 @@
 #include <string.h>
 #include <cs50.h>
 #include<ctype.h>
-#include<math.h>
 
 string ari(string s)
  
@@ -12,7 +11,7 @@ float ari=0;
 string ans;
 int words=1,sentences=0;
 for(int i=0;i<strlen(s);i++)
-{if(isalnum(s)==1;)
+{if(isalnum(s)==1)
 letters++;
 if((s[i]=='.'&&s[i+1]==0)||s[i]=='?'||s[i]=='!'){
 sentences++;
@@ -21,7 +20,7 @@ if(s[i]==' ')
 words++;
 }
 ari=4.71*(letters/words)+0.5*(words/sentences)-21.43;
- int ari2=round(ari);
+ int ari2=ceil(ari);
 switch(ari2){
 case 1 : ans="kindergarten";
 break;
