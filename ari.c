@@ -9,13 +9,13 @@ string ari(string s)
 {int letters=0;
 int ari=0;
 string ans;
-int words=0,sentences=0;
+int words=1,sentences=0;
 for(int i=0;i<strlen(s);i++)
 {if(isalnum(s[i])==0)
 letters++;
-if(s[i]=='.'||s[i]=='?'||s[i]=='!'){
+if((s[i]=='.'&&s[i+1]==0)||s[i]=='?'||s[i]=='!'){
 sentences++;
-words++;}
+}
 if(s[i]==' ')
 words++;
 }
