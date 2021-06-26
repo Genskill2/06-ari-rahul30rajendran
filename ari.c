@@ -1,4 +1,10 @@
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
+#include <cs50.h>
+
 string ari(string s)
+ 
 {int letters=0;
 int ari=0;
 string ans[100];
