@@ -20,7 +20,7 @@ sentences++;
 if(s[i]==' ')
 words++;
 }
-ari=(int)4.71*(letters/words)+0.5*(words/sentences)-21.43;
+ari=4.71*(letters/words)+0.5*(words/sentences)-21.43;
  int ari2=round(ari);
 switch(ari2){
 case 1 : ans="kindergarten";
