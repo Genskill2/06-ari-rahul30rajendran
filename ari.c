@@ -16,7 +16,7 @@ ari=(int)4.71*(letters/words)+0.5*(words/sentences)-21.43;
 switch(ari){
 case 1 : ans="kindergarten";
 break;
-case 2 : ans= "First/Second Grade
+case 2 : ans= "First/Second Grade";
 break;
 case 3:ans="Third Grade";
 break;
