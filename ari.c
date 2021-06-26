@@ -12,7 +12,7 @@ float ari=0;
 string ans;
 int words=1,sentences=0;
 for(int i=0;i<strlen(s);i++)
-{if(isalnum(s))
+{if(isalnum(s)==1;)
 letters++;
 if((s[i]=='.'&&s[i+1]==0)||s[i]=='?'||s[i]=='!'){
 sentences++;
